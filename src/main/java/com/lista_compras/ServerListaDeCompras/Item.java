@@ -4,6 +4,7 @@ public class Item {
     private Long id;
     private String nome;
     private int quantidade;
+    private double preco;
 
     public Item() {}
     public Item(Long id, String nome, int quantidade) {
